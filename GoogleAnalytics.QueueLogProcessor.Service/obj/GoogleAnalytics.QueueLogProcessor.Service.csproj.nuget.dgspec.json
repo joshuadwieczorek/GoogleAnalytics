@@ -1,0 +1,481 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\GoogleAnalytics.QueueLogProcessor.Service\\GoogleAnalytics.QueueLogProcessor.Service.csproj": {}
+  },
+  "projects": {
+    "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\AAG.Global\\AAG.Global.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\AAG.Global\\AAG.Global.csproj",
+        "projectName": "AAG.Global",
+        "projectPath": "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\AAG.Global\\AAG.Global.csproj",
+        "packagesPath": "C:\\Users\\jwieczorek\\.nuget\\packages\\",
+        "outputPath": "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\AAG.Global\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jwieczorek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Bugsnag.AspNet.Core": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "NodaTime": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\Database.Accounts.Domain\\Database.Accounts.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\Database.Accounts.Domain\\Database.Accounts.Domain.csproj",
+        "projectName": "Database.Accounts.Domain",
+        "projectPath": "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\Database.Accounts.Domain\\Database.Accounts.Domain.csproj",
+        "packagesPath": "C:\\Users\\jwieczorek\\.nuget\\packages\\",
+        "outputPath": "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\Database.Accounts.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jwieczorek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\AAG.Global\\AAG.Global.csproj": {
+                "projectPath": "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\AAG.Global\\AAG.Global.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\Database.GoogleAnalytics.Domain\\Database.GoogleAnalytics.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\Database.GoogleAnalytics.Domain\\Database.GoogleAnalytics.Domain.csproj",
+        "projectName": "Database.GoogleAnalytics.Domain",
+        "projectPath": "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\Database.GoogleAnalytics.Domain\\Database.GoogleAnalytics.Domain.csproj",
+        "packagesPath": "C:\\Users\\jwieczorek\\.nuget\\packages\\",
+        "outputPath": "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\Database.GoogleAnalytics.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jwieczorek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\AAG.Global\\AAG.Global.csproj": {
+                "projectPath": "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\AAG.Global\\AAG.Global.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\GoogleAnalytics.Library\\GoogleAnalytics.Library.csproj": {
+      "version": "1.0.1",
+      "restore": {
+        "projectUniqueName": "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\GoogleAnalytics.Library\\GoogleAnalytics.Library.csproj",
+        "projectName": "GoogleAnalytics.Library",
+        "projectPath": "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\GoogleAnalytics.Library\\GoogleAnalytics.Library.csproj",
+        "packagesPath": "C:\\Users\\jwieczorek\\.nuget\\packages\\",
+        "outputPath": "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\GoogleAnalytics.Library\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jwieczorek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\AAG.Global\\AAG.Global.csproj": {
+                "projectPath": "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\AAG.Global\\AAG.Global.csproj"
+              },
+              "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\Database.Accounts.Domain\\Database.Accounts.Domain.csproj": {
+                "projectPath": "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\Database.Accounts.Domain\\Database.Accounts.Domain.csproj"
+              },
+              "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\Database.GoogleAnalytics.Domain\\Database.GoogleAnalytics.Domain.csproj": {
+                "projectPath": "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\Database.GoogleAnalytics.Domain\\Database.GoogleAnalytics.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Bugsnag.AspNet.Core": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Google.Apis.AnalyticsReporting.v4": {
+              "target": "Package",
+              "version": "[1.49.0.2128, )"
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.9.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\GoogleAnalytics.QueueLogProcessor.Service\\GoogleAnalytics.QueueLogProcessor.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\GoogleAnalytics.QueueLogProcessor.Service\\GoogleAnalytics.QueueLogProcessor.Service.csproj",
+        "projectName": "GoogleAnalytics.QueueLogProcessor.Service",
+        "projectPath": "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\GoogleAnalytics.QueueLogProcessor.Service\\GoogleAnalytics.QueueLogProcessor.Service.csproj",
+        "packagesPath": "C:\\Users\\jwieczorek\\.nuget\\packages\\",
+        "outputPath": "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\GoogleAnalytics.QueueLogProcessor.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jwieczorek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\AAG.Global\\AAG.Global.csproj": {
+                "projectPath": "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\AAG.Global\\AAG.Global.csproj"
+              },
+              "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\GoogleAnalytics.Library\\GoogleAnalytics.Library.csproj": {
+                "projectPath": "D:\\AutoAdGroup_TFS_Master\\Auto Ad Group\\AppServices\\GoogleAnalytics.Library\\GoogleAnalytics.Library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Bugsnag.AspNet.Core": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
